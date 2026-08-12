@@ -8,12 +8,18 @@ The system uses MATLAB image processing techniques to analyze gear images and id
 
 ## ⚙️ Technologies Used
 
-* MATLAB
-* MATLAB Image Processing
-* Arduino Uno
-* USB Webcam
-* L293 Motor Driver
-* Conveyor Belt
+- MATLAB
+- MATLAB Image Processing
+- Arduino Uno
+- USB Webcam
+- L293 Motor Driver
+- Conveyor Belt
+
+## 🔧 Hardware Setup
+
+The hardware setup consists of an Arduino Uno, USB webcam, conveyor belt, L293 motor driver, and gear rejection mechanism. The webcam captures the gear image, while the Arduino controls the conveyor and rejection mechanism based on the detection result.
+
+![Hardware Setup](hardware_setup.jpg)
 
 ## 🔍 Working Principle
 
@@ -27,6 +33,12 @@ The system uses MATLAB image processing techniques to analyze gear images and id
 8. If the gear is defective, Arduino controls the rejection mechanism.
 9. The defective gear is pushed aside automatically.
 
+## 🔄 System Block Diagram
+
+The overall system follows the workflow from gear placement and image acquisition to image processing, defect detection, and automatic rejection.
+
+![System Block Diagram](block_diagram.jpg)
+
 ## 🎯 Objective
 
 To develop an automated and cost-effective system for detecting defective gears and reducing manual inspection in manufacturing industries.
@@ -35,24 +47,22 @@ To develop an automated and cost-effective system for detecting defective gears 
 
 The system analyzes parameters including:
 
-* Outer diameter
-* Inner diameter
-* Number of teeth
-* Gear shape
+- Outer diameter
+- Inner diameter
+- Number of teeth
+- Gear shape
 
 ## 👩‍💻 Project Domain
 
 **Computer Vision | Image Processing | Embedded Systems | Industrial Automation**
 
-## 🚀 Future Scope
-
-The system can be further improved by using advanced machine learning or deep learning techniques for more accurate defect classification and by integrating industrial cameras and automated production-line monitoring.
-
 ## 📁 Repository Contents
 
-* `MATLAB/` – MATLAB image processing code
-* `good_gear_result.jpg` – Result image of a good/non-defective gear
-* `defective_gear_result.jpg` – Result image of a defective gear
+- `MATLAB/` – MATLAB image processing code
+- `good_gear_result.jpg` – Result image of a good/non-defective gear
+- `defective_gear_result.jpg` – Result image of a defective gear
+- `hardware_setup.jpg` – Hardware setup of the project
+- `block_diagram.jpg` – System block diagram
 
 ## 📊 Results
 
@@ -72,13 +82,16 @@ The system detects abnormalities in the gear, such as variation in outer diamete
 
 ### Detection Parameters
 
-| Parameter       | Good Gear | Defective Gear |
-| --------------- | --------: | -------------: |
-| Outer Diameter  |     27 mm |          28 mm |
-| Inner Diameter  |     24 mm |          24 mm |
-| Number of Teeth |        12 |             10 |
+| Parameter | Good Gear | Defective Gear |
+|---|---:|---:|
+| Outer Diameter | 27 mm | 28 mm |
+| Inner Diameter | 24 mm | 24 mm |
+| Number of Teeth | 12 | 10 |
 
 The results demonstrate that the image-processing algorithm can distinguish between good and defective gears based on their geometric characteristics.
 
+## 🚀 Future Scope
+
+The system can be further improved by using advanced machine learning or deep learning techniques for more accurate defect classification and by integrating industrial cameras and automated production-line monitoring.
 
 

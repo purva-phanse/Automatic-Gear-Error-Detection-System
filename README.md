@@ -54,3 +54,29 @@ The system can be further improved by using advanced machine learning or deep le
 - `Arduino/` – Arduino control code
 - `Images/` – Input and output images
 - `Documentation/` – Project report and related documents
+- ## Results
+
+The proposed system successfully identifies defective and non-defective gears using MATLAB-based image processing.
+
+### Non-Defective Gear
+
+The system correctly identifies a gear with the expected dimensions and number of teeth.
+
+![Non-Defective Gear](non_defective_gear_result.jpg)
+
+### Defective Gear
+
+The system detects abnormalities in the gear, such as variation in outer diameter and missing teeth.
+
+![Defective Gear](defective_gear_result.jpg)
+
+### Detection Parameters
+
+| Parameter       | Non-Defective Gear | Defective Gear |
+| --------------- | -----------------: | -------------: |
+| Outer Diameter  |              27 mm |          28 mm |
+| Inner Diameter  |              24 mm |              — |
+| Number of Teeth |                 12 |             10 |
+
+The results demonstrate that the image-processing algorithm can distinguish between non-defective and defective gears based on their geometric characteristics.
+

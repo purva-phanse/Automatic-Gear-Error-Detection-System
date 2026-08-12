@@ -8,12 +8,12 @@ The system uses MATLAB image processing techniques to analyze gear images and id
 
 ## ⚙️ Technologies Used
 
-- MATLAB
-- MATLAB Image Processing
-- Arduino Uno
-- USB Webcam
-- L293 Motor Driver
-- Conveyor Belt
+* MATLAB
+* MATLAB Image Processing
+* Arduino Uno
+* USB Webcam
+* L293 Motor Driver
+* Conveyor Belt
 
 ## 🔍 Working Principle
 
@@ -35,10 +35,10 @@ To develop an automated and cost-effective system for detecting defective gears 
 
 The system analyzes parameters including:
 
-- Outer diameter
-- Inner diameter
-- Number of teeth
-- Gear shape
+* Outer diameter
+* Inner diameter
+* Number of teeth
+* Gear shape
 
 ## 👩‍💻 Project Domain
 
@@ -50,11 +50,11 @@ The system can be further improved by using advanced machine learning or deep le
 
 ## 📁 Repository Contents
 
-- `MATLAB/` – MATLAB image processing code
-- `Arduino/` – Arduino control code
-- `Images/` – Input and output images
-- `Documentation/` – Project report and related documents
-  ## Results
+* `MATLAB/` – MATLAB image processing code
+* `good_gear_result.jpg` – Result image of a good/non-defective gear
+* `defective_gear_result.jpg` – Result image of a defective gear
+
+## 📊 Results
 
 The proposed system successfully identifies defective and non-defective gears using MATLAB-based image processing.
 

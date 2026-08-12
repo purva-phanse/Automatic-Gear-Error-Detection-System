@@ -75,9 +75,10 @@ The system detects abnormalities in the gear, such as variation in outer diamete
 | Parameter       | Good Gear | Defective Gear |
 | --------------- | --------: | -------------: |
 | Outer Diameter  |     27 mm |          28 mm |
-| Inner Diameter  |     24 mm |              — |
+| Inner Diameter  |     24 mm |          24 mm |
 | Number of Teeth |        12 |             10 |
 
 The results demonstrate that the image-processing algorithm can distinguish between good and defective gears based on their geometric characteristics.
+
 
 
